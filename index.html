@@ -6,18 +6,9 @@
 
     <!-- https://fonts.google.com -->
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
     <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-
-            background: skyblue;
-            color: #ffffff;
-            font-size: 2em;
-            text-align: center;
-        }
-
         p {
             font-family: 'Indie Flower', serif;
         }
@@ -29,14 +20,16 @@
         }
 
         .color {
-            background-color: red;
+            background-color: olive;
         }
     </style>
 </head>
+<body class="bg-gray-100">
+<div class="flex content-center">
+    <h1 class="text-6xl max-w-lg mx-auto">Enfin du web !</h1>
+</div>
 
-<body>
-<h1>Enfin du web !</h1>
 <div class="milieu color"></div>
-<p>Bonjour à tous.</p>
+<p class="bg-orange-300 shadow-xl hover:underline" >Bonjour à tous.</pclass>
 </body>
 </html>
